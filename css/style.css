@@ -1,0 +1,382 @@
+/*Start Global*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/*End Global*/
+/* Start Navbar*/
+nav{
+    background-color: #202020;
+    border-left: 4px solid tomato;
+    position: relative;
+    top: 20px;
+
+}
+.navbar-nav{
+    margin-top: -7px;
+    margin-bottom: -7px;
+}
+nav a{
+    color: #f2f2f2;
+    transition: all 0.5s ease;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+nav a:hover{
+    color: tomato;
+}
+li.active {
+    background-color: #555;
+    transition: all 0.5s ease;
+}
+nav li.active:hover{
+    background-color: #202020;
+}
+nav li.active:hover a{
+    color: tomato;
+}
+
+nav .navbar-toggler-icon svg{
+    color: white;
+    font-size: 2rem;
+}
+
+.about{
+    background-image: url(../images/blue2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+.about .fix{
+    background-color: rgba(2, 2, 2, 0.4);
+    height: 500px;
+}
+.about-us h1{
+    color: #fff;
+    padding-top: 20%;
+    padding-right: 5%;
+    font-weight: 900;
+}
+/*End Navbar*/
+/*Start about*/
+
+.quadri{
+    margin-top: -1.5rem;
+}
+
+.feat{
+    border: 2px solid #fff;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.feat svg{
+    font-size: 3.5rem !important;
+    margin: 0.5rem 0;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.feat h2{
+    margin-bottom:0.5em;
+}
+.feat p{
+    margin-bottom: 1.5rem;
+}
+@media (max-width: 1400px){
+    .quadri .feat-first{
+        background-color: #C14000;
+        color: #fff;
+        border: none;
+    }
+    .quadri .feat-second{
+        background-color: #009988;
+        color: #fff;
+        border: none;
+    }
+    .quadri .feat-third{
+        background-color: #FFA500;
+        color: #fff;
+        border: none;
+    }
+}
+/*End about*/
+/*Start StartUp*/
+
+.startUp{
+    margin-top: 4rem;
+}
+.startUp .startUp1{
+    height: 24rem;
+    width: 100%;
+    cursor: pointer;
+
+}
+.startUp .startUp1 img{
+    width: 100%;
+}
+.startUp .startUp2{
+    height: 24rem;
+    background-color: #191919;
+    color: #fff;
+    max-width: 100%;
+    /* margin-left: -17%; */
+}
+.startUp .startUp2 h2{
+    padding-top: 2rem;
+    padding-left: 8%;
+    font-weight: 900;
+}
+.startUp .startUp2 p{
+    padding-left: 8%;
+    margin-top: 2rem;
+    font-size: smaller;
+    opacity: 0.7;
+    line-height: 1.7;
+    margin-right: 1%;
+    max-width: 500px;
+}
+.startUp .startUp2 p:nth-of-type(2){
+    margin-top: 0;
+}
+.startUp .startUp1 img{
+    height: 100%;
+}
+.startUp .startUp2 button{
+    margin-left: 8%;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+@media (min-width: 992px){
+    .startUp .startUp2{
+        margin-left: -17%;
+    }
+}
+
+/*End StartUp*/
+/*Start Projects*/
+.projects{
+    color: #fff;
+    margin-top: 4rem;
+}
+.projects .col-lg-3, .projects .col-lg-4{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.projects h2{
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+.projects p{
+    /* font-size: smaller; */
+    opacity: 0.7;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.projectImage{
+    height: 15rem;
+    width: 100%;
+
+}
+.projectImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #222;
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+}
+.projectImage img:hover{
+    opacity: 1;
+}
+.projects button{
+    margin-top: 1.5rem;
+}
+
+/*End Projects*/
+/*Start links*/
+.links{
+    background-color: #1C1C1C;
+    color: #fff;
+    margin-top: 3rem;
+}
+.links h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.links p{
+    opacity: 0.5;
+}
+.links i{
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+.links span{
+    opacity: 0.5;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0.7rem;
+}
+
+.links .secondSlide li{
+    margin-bottom: 1rem;
+    transition: opacity 0.5s ease;
+}
+.links .secondSlide li a{
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+.links .secondSlide li a:hover{
+    color:white;
+    opacity: 1 !important;
+}
+.links .thirdSlide input{
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.links .thirdSlide button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/*End links*/
+/*Start Footer*/
+footer{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #f2f2f2
+}
+footer .copy{
+    opacity: 0.6;
+}
+footer  .name{
+    opacity: 0.8;
+}
+footer i{
+    margin-left: 0.5rem;
+    font-size: 23px;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+footer i:hover{
+    opacity: 1;
+}
+@media (max-width: 991px){
+    footer{
+        text-align: center;
+    }
+}
+/*End Footer*/
+/*Start Loading page*/
+.animate-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #333;
+}
+.sk-folding-cube {
+    margin: 50vh auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: #fff;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+/*End Loading page*/
