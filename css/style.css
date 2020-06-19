@@ -32,6 +32,7 @@ nav a{
     padding-left: 15px;
 
 }
+
 nav a:hover{
     color: tomato;
 }
