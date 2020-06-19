@@ -65,6 +65,20 @@ nav .navbar-toggler-icon svg{
     padding-right: 5%;
     font-weight: 900;
 }
+@media (max-width: 992px){
+    .navbar-nav{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .navbar-toggler{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .navbar-brand{
+        margin-top: 15px ;
+        margin-bottom: 15px ;
+    }
+}
 /*End Navbar*/
 /*Start about*/
 
@@ -79,6 +93,21 @@ nav .navbar-toggler-icon svg{
     border-radius: 4px;
     text-align: center;
 }
+.quadri .feat-first{
+    background-color: #C14000;
+    color: #fff;
+    border: none;
+}
+.quadri .feat-second{
+    background-color: #009988;
+    color: #fff;
+    border: none;
+}
+.quadri .feat-third{
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+}
 
 .feat svg{
     font-size: 3.5rem !important;
@@ -92,23 +121,7 @@ nav .navbar-toggler-icon svg{
 .feat p{
     margin-bottom: 1.5rem;
 }
-@media (max-width: 1400px){
-    .quadri .feat-first{
-        background-color: #C14000;
-        color: #fff;
-        border: none;
-    }
-    .quadri .feat-second{
-        background-color: #009988;
-        color: #fff;
-        border: none;
-    }
-    .quadri .feat-third{
-        background-color: #FFA500;
-        color: #fff;
-        border: none;
-    }
-}
+
 /*End about*/
 /*Start StartUp*/
 
