@@ -1,0 +1,65 @@
+/*--- Start About Page ---*/
+/*Start About*/
+.breadcrumb{
+    margin-top: 50px;
+    background-color: #333;
+    margin-bottom: 0;
+
+}
+.breadcrumb ol {
+    color: #333;
+}
+.breadcrumb .active{
+    color: tomato;
+    background-color: transparent;
+}
+.info-fix{
+    background-color: rgba(2, 2, 2, 0.7);
+    min-height: 400px;
+}
+
+.info{
+    margin: 50px 0;
+    margin-top: 0;
+    background-image:url(../images/info.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.info .h1{
+    padding-top: 80px;
+    margin-bottom: 30px;
+    letter-spacing: -2px;
+}
+.info button{
+    margin-top: 60px;
+    transition: all 1s ease;
+}
+.info button:hover{
+    background-color: tomato;
+    border: 1px solid tomato;
+}
+/*End About*/
+/*Start Features*/
+.about-feat  .bi-braces{
+    color: #C14000;
+}
+.about-feat .bi-grid{
+    color: #009988;
+}
+.about-feat .bi-check2-square{
+    color: #FFC62F
+}
+.about-feat svg{
+    margin-bottom: 20px;
+}
+.about-feat h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.about-feat p{
+    color: #8D8D8D;
+}
+/*End Features*/
+/*End About Page*/

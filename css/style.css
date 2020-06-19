@@ -30,7 +30,7 @@ nav a{
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 15px;
-
+    padding-right: 15px;
 }
 
 nav a:hover{
@@ -43,6 +43,10 @@ li.active {
 nav li.active:hover{
     background-color: #202020;
 }
+a.active{
+    color: tomato;
+}
+
 nav li.active:hover a{
     color: tomato;
 }
