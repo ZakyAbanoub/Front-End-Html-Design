@@ -184,9 +184,10 @@ nav .navbar-toggler-icon svg{
 }
 .startUp .startUp2 button{
     margin-left: 8%;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
 @media (min-width: 992px){
     .startUp .startUp2{
         margin-left: -17%;
