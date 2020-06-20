@@ -1,13 +1,23 @@
 /*Start Global*/
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: #000;
     font-family: 'Montserrat', sans-serif;
-
 }
+
+::-webkit-scrollbar {
+    background-color: #111; /* or add it to the track */
+  }
+
+  
+::-webkit-scrollbar-thumb {
+    background: #8D8D8D; 
+}
+
 /*End Global*/
 /* Start Navbar*/
 nav{

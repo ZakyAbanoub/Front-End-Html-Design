@@ -16,6 +16,7 @@
 .info-fix{
     background-color: rgba(2, 2, 2, 0.7);
     min-height: 400px;
+    
 }
 
 .info{
@@ -35,11 +36,9 @@
 .info button{
     margin-top: 60px;
     transition: all 1s ease;
+    margin-bottom: 30px;
 }
-.info button:hover{
-    background-color: tomato;
-    border: 1px solid tomato;
-}
+
 /*End About*/
 /*Start Features*/
 .about-feat  .bi-braces{
@@ -60,6 +59,105 @@
 }
 .about-feat p{
     color: #8D8D8D;
+    margin-bottom: 50px;
 }
 /*End Features*/
-/*End About Page*/
+/*--- End About Page ---*/
+/*--- Start FAQ Page ---*/
+
+.faq .h1{
+    padding-top: 50px;
+    color: #fff;
+    letter-spacing: -2px;
+
+}
+.faq p{
+    color: #8D8D8D;
+    margin-bottom: 80px;
+}
+.panel-title{
+    margin: 20px;
+    width: 30%;
+    animation: animated-border 2s ease-in-out infinite;
+
+}
+.panel-title a{
+    color: #fff;
+
+
+}
+.panel-title a::after{
+    font-family: 'Glyphicons Halflings';
+    content:'\2193' ;
+    float: right;
+    color: #fff;
+}
+.panel-title a.collapsed::after{
+    content:'\2192';
+}
+
+.panel-body{
+    color: #8D8D8D;
+    margin-left: 20%;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+@keyframes animated-border{
+    0%, 100%{
+        border: 2px solid #ddd;
+    }
+
+    50%{
+        border: 2px solid #000;
+    }
+
+}
+@media (max-width: 900px){
+    .panel-title{
+        width: 50%;
+    }
+}
+/*--- End FAQ Page ---*/
+/*---Start Contact Us Page---*/
+.contact-contact{
+    background-image: url('../images/contact.jpg');
+    min-height: 300px;
+}
+.contact-contact .scuro{
+    background-color: rgba(2, 2, 2, 0.7);
+    min-height: 400px;
+}
+.contact-contact .h1{
+    color: #fff;
+    font-size: 65px;
+    letter-spacing: -2px;
+    padding-top: 50px;
+}
+.contact-contact p{
+    color: #8D8D8D;
+}
+.contact-contact .input-group{
+    width: 50%;
+    margin: 50px auto;
+}
+.contact-contact .form-control{
+    background-color: #ddd;
+}
+
+.contact-contact button{
+    margin-bottom: 50px;
+}
+.links-coppia{
+    margin-top: -3rem;
+}
+
+@media (max-width: 900px){
+    .contact-contact .input-group{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/*---End Contact Us page---*/
